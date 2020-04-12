@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import firebase from "firebase";
 import StyledFirebaseAuth from "react-firebaseui/StyledFirebaseAuth";
-
-
+import {withFirebase} from "../../utils/fb";
+import {withAuthentication} from "../../utils/session";
 import {compose} from "recompose";
 
 
