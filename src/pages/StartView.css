@@ -1,0 +1,53 @@
+.wrapper {
+    margin: 1vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.inner_wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.title_box{
+    display: flex;
+    justify-content: center;
+    font-size: 70px;
+}
+
+.text_box{
+    display: flex;
+}
+
+.buttons_box{
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.sign_in_box{
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.sign_in_button{
+    font-size: 25px;
+    display: flex;
+
+}
+
+.download_box{
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.download_button{
+    font-size: 25px;
+    display: flex;
+}

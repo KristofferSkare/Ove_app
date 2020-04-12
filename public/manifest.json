@@ -1,0 +1,50 @@
+{
+  "short_name": "EC-Play",
+  "name": "EC-Play",
+  "icons": [
+    {
+      "src": "/Ec-play icons/icon-144x156.png",
+      "sizes": "144x156",
+      "type": "png"
+    },
+    {
+      "src": "/Ec-play icons/icon-128x138.png",
+      "sizes": "128x138",
+      "type": "png"
+    },
+    {
+      "src": "/Ec-play icons/icon-96x104.png",
+      "sizes": "96x104",
+      "type": "png"
+    },
+    {
+      "src": "/Ec-play icons/icon-72x78.png",
+      "sizes": "72x78",
+      "type": "png"
+    },
+    {
+      "src": "/Ec-play icons/icon-64x69.png",
+      "sizes": "64x69",
+      "type": "png"
+    },
+    {
+      "src": "/Ec-play icons/icon-32x35.png",
+      "sizes": "32x35",
+      "type": "png"
+    },
+    {
+      "src": "/Ec-play icons/icon-24x26.png",
+      "sizes": "24x26",
+      "type": "png"
+    },
+    {
+      "src": "/Ec-play icons/icon-16x17.png",
+      "sizes": "16x17",
+      "type": "png"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

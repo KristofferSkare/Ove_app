@@ -1,0 +1,10 @@
+.fancy-input-box {
+    background-color: inherit;
+    display: inline;
+    outline: 0;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid lightgray;
+    border-width: 1px;
+}

@@ -1,0 +1,66 @@
+html, body {
+  background-color: #FF00FF;
+  width: 100%;
+  height: 100%;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+.btn:focus {
+  outline: none !important;
+  outline-offset: 0 !important;
+}
+
+#site_wrapper {
+  height: 100%;
+  width: 100%;
+  background-color: #121416;
+}
+
+.scroll_pane {
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+}
+
+.loading_curtain {
+  background-color: inherit;
+  position:fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  margin: 0;
+  padding: 0;
+  z-index: 99999; /*please don't put anything higher than this*/
+}
+
+.app {
+  background-color: #121416;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: stretch;
+  flex: 1 100%;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.page {
+  max-width: 1000px;
+}
+
+.inputBox {
+  background-color: azure;
+  border: none;
+  border-bottom: 2px solid #72367f;
+  padding: 5px 10px;
+  text-align: left;
+  text-decoration: none;
+}
